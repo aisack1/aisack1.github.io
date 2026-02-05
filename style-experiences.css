@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  color: #171717;
+}
+
+h1, h2, h3 {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 700;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
