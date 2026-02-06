@@ -26,10 +26,6 @@ h1 {
   color: #171717;
 }
 
-h1 u { 
-  text-decoration: none;  /* optional: remove underline for cleaner look */
-}
-
 section {
   background: linear-gradient(to bottom, #abc5f5, #c1d9fc);
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -47,6 +43,14 @@ section h2 {
   padding-bottom: 5px;
 }
 
+.type h2, h3 {
+  font-family: 'Segoe UI', sans-serif;
+  color: #171717;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
 section img {
   float: left;
   margin-right: 20px;
@@ -161,4 +165,14 @@ nav a:hover {
 .page {
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project {
+  background: linear-gradient(to bottom, #f2f2f2, #e8e8e8)
+}
+
+.project h3 {
+  color:#171717;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 8px;
 }
